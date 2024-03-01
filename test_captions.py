@@ -11,11 +11,11 @@ try:
     captions_id = get_captions_id(captions)
 
     # captions_ids = 'AUieDabi7MlVfhlOiIeiJdvD3ie8wKBrr1KOXmSklkM_6kZKHFM'
-    captions_file = download_captions(captions_id)
-    if(captions_file is not None):
-          # save the result to a file
-        with open(f'{captions_id}.txt', 'w') as file:
-            file.write(captions_file.text)
+    # captions_file = download_captions(captions_id)
+    # if(captions_file is not None):
+    #       # save the result to a file
+    #     with open(f'{captions_id}.txt', 'w') as file:
+    #         file.write(captions_file.text)
 
 
 except Exception as e:
